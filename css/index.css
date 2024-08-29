@@ -1,1 +1,169 @@
 @import "./global.css";
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3.4rem;
+}
+
+.navigation img {
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
+.hero-up {
+  margin-top: 6.6rem;
+}
+
+.hero-up h1 {
+  font-size: var(--h1-fs);
+  line-height: var(--h1-lh);
+  text-align: center;
+}
+
+.hero-up p {
+  font-size: var(--p-fs);
+  line-height: var(--p-lh);
+  text-align: center;
+  color: #7a746e;
+  padding-top: 2.3rem;
+}
+
+.hero-main {
+  padding: 2.4rem;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 1fr 1fr;
+  color: var(--white-color);
+}
+
+.graphic-design {
+  grid-area: Graphic design;
+  background-color: var(--purple-color);
+  background-image: url(../images/pattern-graphic-design.svg);
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+.ui-ux {
+  grid-area: ui/ux;
+  background-color: var(--peach-color);
+  grid-column: 3/4;
+}
+
+.apps {
+  grid-area: apps;
+  background-color: var(--pink-color);
+  grid-column: 4/5;
+}
+
+.photography {
+  grid-area: photography;
+  background-color: var(--aqua-color);
+  grid-column: 5/7;
+}
+
+.illustrations {
+  grid-column: illustrations;
+  background-color: var(--orange-color);
+  grid-column: 3/5;
+  grid-row: 2/3;
+}
+
+.motion-graphics {
+  grid-area: motion-graphics;
+  background-color: var(--deep-violet-color);
+  grid-column: 6/8;
+  grid-row: 2/3;
+}
+
+.amy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 13.6rem;
+}
+
+.amy img {
+  width: 44.5rem;
+  height: 44.5rem;
+}
+
+.amy h2 {
+  font-size: var(--h2-fs);
+  line-height: var(--h2-lh);
+}
+
+.amy p {
+  font-size: var(--p-fs);
+  line-height: var(--p-lh);
+  color: #7a746e;
+  padding: 2.4rem 0 3.2rem 0;
+  max-width: 54rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: var(--h3-fs);
+  line-height: var(--h3-lh);
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 8.8rem;
+}
+
+.my-work {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin: 5.6rem 0;
+}
+
+.my-work img {
+  border-radius: 1rem;
+}
+
+.arrow {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.arrow img {
+  background-color: var(--black-color);
+  width: 4.4rem;
+  height: 4.4rem;
+  border-radius: 9rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--black-color);
+  padding: 8rem 9rem 8rem 6.5rem;
+  border-radius: 1rem;
+  margin-top: 8.8rem;
+}
+
+.book-left {
+}
+
+.book-left h2 {
+  font-size: var(--h2-fs);
+  line-height: var(--h2-lh);
+  color: var(--white-color);
+}
+
+.book-left p {
+  font-size: var(--p-fs);
+  line-height: var(--p-lh);
+  padding-top: 2.5rem;
+  max-width: 54rem;
+  color: var(--white-color);
+}
+
+footer .navigation {
+  margin-top: 5.6rem;
+  padding-bottom: 10rem;
+}
