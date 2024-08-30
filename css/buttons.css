@@ -1,29 +1,29 @@
 .btn {
-  border-radius: 50px;
-  padding: 1.4rem 4.5rem;
-  font-weight: 600;
-  font-size: 1.6rem;
-  line-height: var(--p-lh);
-  text-transform: capitalize;
-  border: none;
-  cursor: pointer;
-  color: #fff7f0;
-  background-color: var(--black-color);
-  transition: 0.4s;
+    border-radius: 50px;
+    padding: 1.4rem 4.5rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: var(--p-lh);
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    color: #fff7f0;
+    background-color: var(--black-color);
+    transition: 0.4s;
 }
 
 .button-peach {
-  background-color: var(--peach-color);
-  color: var(--white-color);
-  &:hover {
-    background-color: var(--orange-color);
-  }
+    background-color: var(--peach-color);
+    color: var(--white-color);
+    &:hover {
+        background-color: var(--orange-color);
+    }
 }
 
 .button-black {
-  background-color: var(--black-color);
-  color: var(--white-color);
-  &:hover {
-    background-color: var(--purple-color);
-  }
+    background-color: var(--black-color);
+    color: var(--white-color);
+    &:hover {
+        background-color: var(--purple-color);
+    }
 }
